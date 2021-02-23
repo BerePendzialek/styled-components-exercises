@@ -10,6 +10,7 @@ body {
   font-size: 112.5%;
   font-family: sans-serif;
   background-color: royalblue;
+  padding: 20px;
 }
 
 input,

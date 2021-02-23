@@ -1,3 +1,5 @@
+
+
 /*
  * Now it would be great to have our title
  * and subtitle in a header component.
@@ -7,11 +9,15 @@
  * Don't forget to import 'styled-components/macro'!
  */
 
+
+import AppHeader from './AppHeader'
+
 export default function App() {
   return (
     <div>
-      <h1>Hello Hacker!</h1>
-      <p>Let's learn styled-components together!</p>
+      <AppHeader title={'Hi Hacker!'} subtitle={"How's it going?"} />
     </div>
   )
 }
+
+
